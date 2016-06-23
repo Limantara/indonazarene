@@ -55,4 +55,4 @@ group :test, :production do
     gem 'pg'
 end
 
-ruby "2.3.1"
+# ruby "2.3.1"
