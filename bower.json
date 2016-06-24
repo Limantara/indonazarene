@@ -1,0 +1,19 @@
+{
+  "name": "indonazarene",
+  "homepage": "https://github.com/Limantara/indonazarene",
+  "authors": [
+    "Edwin Limantara"
+  ],
+  "description": "Indonesian Christian Community Church",
+  "main": "",
+  "license": "-",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ]
+}
