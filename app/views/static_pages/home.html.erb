@@ -2,6 +2,8 @@
     body {
         font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: 300;
+        margin: 0;
+        padding-bottom: 0;
     }
     p {
         font-size: 18px;
@@ -99,9 +101,21 @@
         margin-top: 50px;
         padding: 15px 50px;
     }
+    .footer {
+        padding: 50px 0;
+        color:white;
+        background-color: #233140;
+    }
+    section {
+        text-align: center;
+        padding: 150px 0;
+    }
+    section.bg-gray {
+        background-color: #f5f5f5;  
+    }
 </style>
 
-<div class="demo-header">
+<div class="row demo-header">
     <div class="demo-header-content">
         <div class="container">
             <h1>Welcome to Indonazarene!</h1>
@@ -116,6 +130,91 @@
                     <%= link_to "Misi Kami", static_pages_visi_path, class: "btn btn-outline-light page-scroll-demo" %>
                 </li>
             </ul>
+        </div>
+    </div>
+</div>
+
+<section id="jadwal-kebaktian">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Jadwal Kebaktian</h3>
+            </div>
+        </div>
+
+        <hr class="gray">
+        <br>
+        <br>
+        <br>
+    
+        <div class="row">
+            <div class="col-xs-12 col-md-6">
+                <p class="lead">
+                    <strong>Kebaktian rutin</strong> diadakan setiap Minggu jam 14:00 di 1650 Ashbury Drive Concord, CA, 94520
+                </p>
+                <p class="lead">
+                    Untuk info lebih lanjut, harap hubungi Pastor Grace di 925-683-2748
+                </p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <p class="lead">
+                    <strong>Persekutuan doa</strong> diadakan setiap Sabtu jam 14:00 di 1650 Ashbury Drive Concord, CA, 94520
+                </p>
+                <p class="lead">
+                    Untuk info lebih lanjut, harap hubungi Bpk. Yudi di 925-683-2784
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="transport" class="bg-gray">
+    <div class="container">
+        <div class="row">
+            <h3>Welcome DVC Students!</h3>
+        </div>
+        <hr class="gray">
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="lead">
+                    Bagi mahasiswa DVC yang baru datang dan belum memiliki gereja tetap, kami mengundang untuk datang ke kebaktian rutin kami setiap hari minggu jam 14:00 
+                </p>
+                <p class="lead">
+                    Transportasi disediakan untuk mahasiswa DVC yang tinggal di Northridge atau homestay di daerah Concord/Pleaseant Hill/Martinez. Untuk transportasi, harap hubungi Edwin Limantara di 925-255-3413
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="kontak">
+    <div class="container">
+        <div class="row">
+            <h3>Contact</h3>
+            <hr class="gray">
+            <br>
+            <br>
+            <br>
+            <p class="lead">
+                Untuk counseling, kelas katekisasi, atau informasi umum, harap hubungi kami di 1 800-757-8390
+                atau email indonazarenechurch@gmail.com
+            </p>
+        </div>
+    </div>
+</section>
+    
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <p class="white">Copyright © Indonazarene 2016</p>
+            </div>
         </div>
     </div>
 </div>
